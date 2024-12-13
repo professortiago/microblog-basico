@@ -1,0 +1,24 @@
+.card > .card-link { 
+    color: #181819; 
+    text-decoration: none;
+}
+
+.card > .card-link:hover { 
+    color: #0056b3; 
+}
+
+#admin .nav-link {
+    color: white;
+}
+
+#admin .nav-link:hover,#admin .nav-link:focus {
+    background-color: white;
+    color: black;
+}
+
+/* Esta propriedade pegará os
+espaços em branco existentes nos textos, 
+e adicionará uma "quebra" em cada um deles. */
+.ajusta-texto {
+    white-space: pre-wrap;
+}
